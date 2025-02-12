@@ -2,7 +2,7 @@
 
 ## Descrição
 
-CodeLab é um blog interativo desenvolvido com HTML, CSS e JavaScript. O projeto exibe artigos sobre tecnologia e permite realizar buscas por meio da barra de pesquisa.
+O projeto é um desafio do Codelab, o qual é um blog interativo desenvolvido com HTML, CSS e JavaScript. O projeto exibe artigos sobre tecnologia e permite realizar buscas por meio da barra de pesquisa.
 
 ## Tecnologias Utilizadas
 
