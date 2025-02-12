@@ -39,7 +39,7 @@ CodeLab/
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/GiCCastro/codelab.git
+   git clone https://github.com/GiCCastro/Codelab--Desafio-01.git
    ```
 2. Abra o arquivo `index.html` em seu navegador.
 
