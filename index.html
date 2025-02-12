@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <title>CodeLab</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="navbar__title"><span>Code</span>Lab</h1>
+            <input class="navbar__search" id="searchbar" type="search" placeholder="Pesquisar no blog"
+                oninput="search()">
+        </nav>
+    </header>
+    <main class="card-container">
+        <div class="no-results" id="no-results">
+            <p>Desculpe, resultado não encontrado. Tente usar termos diferentes ou
+                verificar a ortografia.</p>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="card-header__date">17 de ago, 2024</p>
+                    <img class="card-header__image" src="assets/full-heart.svg" alt="">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-body__title">O que é linguagem de programação? Conheça as principais</h2>
+                    <p class="card-body__paragraph">Uma das mais populares vertentes da tecnologia da informação, a
+                        área
+                        de programação segue tendo muita
+                        demanda de trabalho justamente pela velocidade com que dispositivos tecnológicos vêm avançando.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="card-header__date">12 de jul, 2024</p>
+                    <img class="card-header__image" src="assets/heart.svg" alt="">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-body__title">GitHub agora permite fazer login sem precisar de senha</h2>
+                    <p class="card-body__paragraph">O GitHub anunciou nesta quarta-feira (12) o acesso a partir das
+                        passkeys, método de autenticação sem
+                        senhas. A novidade está disponível em uma versão beta pública e pode substituir a autenticação
+                        em
+                        dois
+                        fatores.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <div class="card-header">
+                    <p class="card-header__date">21 de jun, 2024</p>
+                    <img class="card-header__image" src="assets/heart.svg" alt="">
+                </div>
+                <div class="card-body">
+                    <h2 class="card-body__title">Por que os hiperlinks são azuis em sua maioria?</h2>
+                    <p class="card-body__paragraph">Quem navega na internet, certamente já percebeu que ela conta com
+                        diversos recursos para tornar a
+                        nossa
+                        vida mais fácil. Entre essas opções podemos mencionar os hiperlinks – uma palavra ou termo
+                        clicável
+                        que
+                        direciona o leitor.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="js/search.js"></script>
+</body>
+
+</html>

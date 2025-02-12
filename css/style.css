@@ -1,0 +1,133 @@
+:root {
+    --brand-color: #e07b67;
+    --dark-10: #121214;
+    --dark-20: #17171a;
+    --dark-30: #202024;
+    --dark-40: #252529;
+    --gray: #afabb6;
+    --white: #ffffff;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--dark-10);
+}
+
+h1,
+h2{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.navbar__title,
+.navbar__search,
+.card-header__date,
+.card-body__title,
+.card-body__paragraph{
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    top: 0;
+    background-color: var(--dark-20);
+    width: 100vw;
+    height: 283px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar__title {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+h1.navbar__title span{
+    color: var(--brand-color);
+}
+
+.navbar__search{
+    max-width: 1216px;
+    width: 100%;
+    height: 56px;
+    padding: 1rem 0 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border-style: none;
+    background-color: var(--dark-30);
+    font-size: 1.25rem;
+    color: var(--white);
+}
+
+main.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
+
+.no-results{
+    display: none;
+    color: var(--gray);
+    font-size: 1.5rem;
+}
+
+.card {
+    max-width: 1216px;
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    gap: 1.5rem;
+    border: 2px solid var(--dark-40);
+    background-color: var(--dark-20);
+    transition: border-color .5s;
+    cursor: pointer;
+}
+
+.card-content{
+    padding: 2.5rem;
+}
+
+.card:hover {
+    border-color: var(--brand-color);
+}
+
+.card-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header__date {
+    font-size: 1rem;
+    color: var(--brand-color);
+}
+
+.card-header__image {
+    width: 1.75rem;
+    height: auto;
+}
+
+
+.card-body__title {
+    font-size: 1.5rem;
+    line-height: 1.91rem;
+    color: var(--white);
+}
+
+.card-body__paragraph{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: var(--gray);
+}
