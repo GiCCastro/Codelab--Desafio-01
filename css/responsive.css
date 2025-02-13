@@ -69,6 +69,10 @@
         margin-bottom: 2.5rem;
     }
 
+    .no-results {
+        font-size: 1.25rem;
+    }
+
     .card-content{
         padding: 2rem 1.5rem;
     }

@@ -59,7 +59,7 @@ h1.navbar__title span {
     max-width: 1216px;
     width: 100%;
     height: 56px;
-    padding: 1rem 0 1rem 1.5rem;
+    padding: 1rem 1.5rem;
     border-radius: 0.5rem;
     border-style: none;
     background-color: var(--dark-30);
@@ -80,6 +80,7 @@ main.card-container {
     display: none;
     color: var(--gray);
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .card {
